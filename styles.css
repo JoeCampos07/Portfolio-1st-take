@@ -1,5 +1,13 @@
-body{
-    background-color: blue;
+* {
+    margin: 0;
+    padding: 0;
 }
 
-/*cambio en la nueva rama */
+:root {
+
+}
+
+body {
+    background-color: black;
+    color: white;
+}
