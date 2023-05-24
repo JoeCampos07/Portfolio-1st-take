@@ -8,6 +8,84 @@
 }
 
 body {
-    background-color: black;
+    background-color: #212A3E;
     color: white;
+}
+
+.navigation-bar {
+    background-color: #79d8ec;
+    height: 100px;
+    width: 100%;
+    border-radius: 5px;
+    border: solid #11999E 5px;
+    display: flex;
+    position: sticky;
+    top: 0;
+    
+}
+
+.nav-org{
+    height: 100%;
+    width: 46%;
+}
+
+#JoeDev-logo{
+    height: 100%;
+}
+
+#navbar {
+    width: 53%;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+}
+
+.nav-menu{
+    transition: 0ms;
+    width: 65%;
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between; 
+    font-family: Kanit;
+    font-size: 20px;
+    font-weight: bold;
+    color: #212A3E;
+}
+
+li{
+    width: 100px;
+    text-align: center;
+}
+
+@keyframes cursor {
+    0% {
+        background-color: white;
+    }
+
+    50% {
+        background-color: none;
+    } 
+}
+
+li:hover {
+    animation: cursor 1s infinite;
+    
+}
+
+h1, p {
+   font-family: Source Code Pro; 
+}
+
+#welcome-section {
+    height: 300px;
+    width: 100%;
+    border: solid white;
+}
+
+.welcome-info {
+    height: 150px;
+    width: 200px;
+    border: solid;
+    margin: auto;
 }
