@@ -1,91 +1,121 @@
 * {
-    margin: 0;
-    padding: 0;
+  margin: 0;
+  padding: 0;
 }
 
 :root {
-
 }
 
 body {
-    background-color: #212A3E;
-    color: white;
+  background-color: #212a3e;
+  color: white;
 }
 
 .navigation-bar {
-    background-color: #79d8ec;
-    height: 100px;
-    width: 100%;
-    border-radius: 5px;
-    border: solid #11999E 5px;
-    display: flex;
-    position: sticky;
-    top: 0;
-    
+  background-color: #79d8ec;
+  height: 100px;
+  width: 100%;
+  border-radius: 5px;
+  border: solid #11999e 5px;
+  display: flex;
+  position: sticky;
+  top: 0;
 }
 
-.nav-org{
-    height: 100%;
-    width: 46%;
+.nav-org {
+  height: 100%;
+  width: 46%;
 }
 
-#JoeDev-logo{
-    height: 100%;
+#JoeDev-logo {
+  height: 100%;
 }
 
 #navbar {
-    width: 53%;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    
+  width: 53%;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
 }
 
-.nav-menu{
-    transition: 0ms;
-    width: 65%;
-    list-style-type: none;
-    display: flex;
-    justify-content: space-between; 
-    font-family: Kanit;
-    font-size: 20px;
-    font-weight: bold;
-    color: #212A3E;
+.nav-menu {
+  transition: 0ms;
+  width: 65%;
+  list-style-type: none;
+  display: flex;
+  justify-content: space-between;
+  font-family: Kanit;
+  font-size: 20px;
+  font-weight: bold;
+  color: #212a3e;
 }
 
-li{
-    width: 100px;
-    text-align: center;
+li {
+  width: 100px;
+  text-align: center;
 }
 
 @keyframes cursor {
-    0% {
-        background-color: white;
-    }
+  0% {
+    background-color: white;
+  }
 
-    50% {
-        background-color: none;
-    } 
+  50% {
+    background-color: none;
+  }
 }
 
 li:hover {
-    animation: cursor 1s infinite;
-    
+  animation: cursor 1s infinite;
 }
 
-h1, p {
-   font-family: Source Code Pro; 
+h1,
+p {
+  font-family: Source Code Pro;
+  font-size: 50px;
 }
 
 #welcome-section {
-    height: 300px;
-    width: 100%;
-    border: solid white;
+  height: 600px;
+  width: 100%;
+  border: solid white;
+  display: flex;
 }
 
 .welcome-info {
-    height: 150px;
-    width: 200px;
-    border: solid;
-    margin: auto;
+  height: 250px;
+  width: 500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+h1 {
+  font-size: 100px;
+}
+
+h1::after {
+  content: "_";
+  opacity: 0;
+  animation: cursor2 1s infinite;
+}
+
+@keyframes cursor2 {
+  0% {
+    opacity: 0;
+  }
+  40% {
+    opacity: 0;
+  }
+  50% {
+    opacity: 1;
+  }
+  90% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
 }
