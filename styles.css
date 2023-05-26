@@ -3,6 +3,10 @@
   padding: 0;
 }
 
+html {
+  scroll-behavior: smooth;
+}
+
 body {
   background-color: #212a3e;
   color: white;
@@ -79,6 +83,10 @@ h1,
 p {
   font-family: Source Code Pro;
   font-size: 50px;
+}
+
+section {
+  scroll-margin-top: 105px;
 }
 
 #welcome-section {
