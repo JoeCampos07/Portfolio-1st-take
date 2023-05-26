@@ -305,3 +305,9 @@ h3::after {
 #profile-link:visited {
   color: white;
 }
+
+@media screen and (max-width: 1080px) {
+  body {
+    background-color: #212a3e;
+  }
+}
