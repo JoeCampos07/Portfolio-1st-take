@@ -134,7 +134,7 @@ h1::after {
 }
 
 #projects {
-  height: 500px;
+  height: 800px;
   width: 100%;
   display: flex;
   flex-wrap: wrap;
@@ -161,6 +161,21 @@ h1::after {
   animation: cursor2 1s infinite;
 }
 
+.project-tile {
+  width: 45%;
+  height: 40%;
+  border: solid;
+  display: flex;
+}
+
+.project-tile-reversed {
+  width: 45%;
+  height: 40%;
+  border: solid;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
 .project-box {
   height: 230px;
   width: 350px;
@@ -173,7 +188,6 @@ h1::after {
 
 .text-eg {
   height: 70px;
-  margin-top: -30px;
   display: flex;
   justify-content: center;
 }
@@ -185,8 +199,8 @@ h1::after {
 }
 
 .real-example:hover {
-  height: 225px;
-  width: 345px;
+  height: 220px;
+  width: 340px;
   border: dotted white 5px;
   display: flex;
   align-content: center;
